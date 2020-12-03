@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+header{
+    top: 0%;
+    padding-left: 0%;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid #DDDDDD;
+    background-color: #ffffff;
+    height: 7%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+    #iglogo{
+        padding-top: 12px;
+        width: 60%;
+        height: 60%;
+        display: inline-block;
+      }
+      
+
+  #house,
+  #direct,
+  #explorer,
+  #notifications,
+  #plus,
+  #like,
+  #ballon,
+  #send,
+  #save{
+    height: 22px;
+    padding-left: 15px;
+  }
+
+  #direct{
+    transform: rotate(-30deg);
+    padding-left: 15px;
+    padding-top: 2px;
+  }
+
+  #explorer{
+      padding-left: 14px;
+  }
+
+  #profile{
+    height: 32px;
+    padding-left: 15px;
+ }
+
+
+  #search_div{
+      padding-top: 5px;
+      padding-left: 12%;
+      padding-right: 12%;
+  }
+
+  #search{
+    display: flex;
+    width: 215px;
+    height: 28px;
+    border: solid 1px #DDDDDD;
+    border-radius: 3px;
+    background-color: #fafafa;
+    cursor: text;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+#post{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8%;
+        align-content: center;
+        margin-left: 6%;
+}
+
+#right{
+    margin-inline-start: 0%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    background-color: #FAFAFA;
+    border: solid 2px #DDDDDD;
+    border-radius: 3px;
+    width: 350px;
+    height: 505px;
+    margin-left: -81px;
+}
+
+#picture{
+    padding-top: 0%;
+    width: 559px;
+    height: 559px;
+}
+
+#post_header{
+    padding-left: 10px;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+#pic_name {
+    margin-bottom: -10px;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#influencer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#fluxoProfile2{
+    width: 40px;
+}
+
+#fluxo_name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#plus{
+    padding-left: 70px;
+    width: 16px;
+    height: 16px;
+}
+
+#fluxoProfile{
+      height: 40px;
+      padding-top: 2px;
+  }
+
+#purpose{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 13px;
+    width: 260px;
+}
+  
+
+#subtitle{
+    overflow-y: scroll;
+}
+
+#talk{
+    border-top:  1px solid #DDDDDD;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#publish{
+    border: none;
+    background-color: #FAFAFA;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #2E95F6;
+}
+
+#comment{
+    border: none;
+    width: 230px;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    font-size: 12px;
+
+}
+
+#subtitle_icons{
+    border-top: 1px solid #DDDDDD;
+    padding-top: 8px;
+    margin-bottom: 40px;
+}
+
+#ballon{
+    margin-top: 5px;
+    transform: scaleX(-1);
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+#send{
+    margin-top: 5px;
+    transform: rotate(-30deg);
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+#like{
+    margin-top: 5px;
+    filter: invert(0.4) sepia(1) saturate(20) hue-rotate(316.8deg) brightness(0.82);
+}
+
+#save{
+    margin-top: 5px;
+    padding-left: 170px;
+}
+
+#hashtags{
+    margin-top: -30px;
+    color: #0d3e6d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#text{
+    padding-left: 50px;  
+}
