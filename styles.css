@@ -20,12 +20,12 @@ header{
     justify-content: center;
   }
 
-    #iglogo{
-        padding-top: 12px;
-        width: 60%;
-        height: 60%;
-        display: inline-block;
-      }
+#iglogo{
+    padding-top: 12px;
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+}
       
 
   #house,
@@ -52,15 +52,15 @@ header{
   }
 
   #profile{
-    height: 32px;
+    height: 25px;
     padding-left: 15px;
  }
 
 
   #search_div{
       padding-top: 5px;
-      padding-left: 12%;
-      padding-right: 12%;
+      padding-left: 13%;
+      padding-right: 11%;
   }
 
   #search{
@@ -79,14 +79,14 @@ header{
 #post{
         display: flex;
         flex-direction: row;
-        margin-top: 8%;
-        align-content: center;
-        margin-left: 6%;
+        margin-top: 6%;
+        align-items: center;
+        height: 598px;
+        width:px;
+
 }
 
 #right{
-    margin-inline-start: 0%;
-    margin-right: 7%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -94,15 +94,20 @@ header{
     background-color: #FAFAFA;
     border: solid 2px #DDDDDD;
     border-radius: 3px;
-    width: 350px;
-    height: 505px;
-    margin-left: -81px;
+    width: 335px;
+    height: 596px;
+    margin-left: -2px;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
 }
 
 #picture{
     padding-top: 0%;
-    width: 559px;
-    height: 559px;
+    width: 598px;
+    height: 598px;
 }
 
 #post_header{
@@ -139,7 +144,7 @@ header{
 }
 
 #plus{
-    padding-left: 80px;
+    padding-left: 90px;
     width: 16px;
     height: 16px;
 }
@@ -191,7 +196,7 @@ header{
 #subtitle_icons{
     border-top: 1px solid #DDDDDD;
     padding-top: 8px;
-    margin-bottom: 40px;
+    margin-bottom: 86px;
 }
 
 #ballon{
@@ -215,7 +220,8 @@ header{
 
 #save{
     margin-top: 5px;
-    padding-left: 170px;
+    padding-left: 160px;
+    width: 40px;
 }
 
 #hashtags{
