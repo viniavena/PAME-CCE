@@ -166,7 +166,7 @@ header{
 
 #subtitle{
     overflow-y: scroll;
-    overflow-x: unset;
+    overflow-x: hidden;
 }
 
 #talk{
